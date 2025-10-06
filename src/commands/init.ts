@@ -46,6 +46,11 @@ on:
   pull_request:
     branches: [ main, develop ]
 
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
 jobs:
   baseline-check:
     runs-on: ubuntu-latest
