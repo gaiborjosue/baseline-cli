@@ -20,7 +20,7 @@ jobs:
           node-version: '20'
 
       - name: Install Baseline CLI
-        run: npm install -g baseline-cli
+        run: npm install -g @edziocodes/baseline-cli
 
       - name: Run Baseline scan
         run: baseline scan --format json
