@@ -155,6 +155,9 @@ Copy the generated markdown into your README.md:
 
 ## 📖 Command Reference
 
+<img width="1508" height="541" alt="diagram-export-10-6-2025-12_36_55-PM" src="https://github.com/user-attachments/assets/c8c0e156-69d2-49ce-b72c-78c7735417b3" />
+
+
 ### `baseline scan [options]`
 
 Scan your project for Baseline compliance.
