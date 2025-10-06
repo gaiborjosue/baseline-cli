@@ -8,6 +8,8 @@ A powerful command-line tool that helps developers instantly check if their web 
 
 ## 🌟 Features
 
+<img width="698" height="671" alt="diagram-export-10-6-2025-12_40_17-PM" src="https://github.com/user-attachments/assets/4e7a89db-3551-4448-b057-06dbdeb48bac" />
+
 ### 🔍 Local Scanning
 - Run `baseline scan` to analyze your project files (JS, TS, CSS, HTML)
 - Detects usage of modern web APIs, CSS features, and JavaScript syntax
