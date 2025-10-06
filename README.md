@@ -326,7 +326,7 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 - Built with the official [web-features](https://www.npmjs.com/package/web-features) npm package
 - Inspired by the [Baseline initiative](https://web.dev/baseline/) from Google and the web community
-- Created for the [Baseline Tooling Hackathon](https://baseline-tooling-hackathon.devpost.com/)
+- Created for the [Baseline Tooling Hackathon](https://baseline.devpost.com/?_gl=1*fr9lq6*_gcl_au*NDg2NTU5MjIxLjE3NTY4Mjg4NDE.*_ga*NzI2Mzk3NTEyLjE3NDgyOTUwNzc.*_ga_0YHJK3Y10M*czE3NTk3NjM0MTAkbzM4JGcxJHQxNzU5NzY4MTk2JGo2MCRsMCRoMA..)
 
 ## 📚 Resources
 
