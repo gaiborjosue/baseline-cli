@@ -10,9 +10,14 @@ A powerful command-line tool that helps developers instantly check if their web 
 
 <img width="698" height="671" alt="diagram-export-10-6-2025-12_40_17-PM" src="https://github.com/user-attachments/assets/4e7a89db-3551-4448-b057-06dbdeb48bac" />
 
-### 🔍 Local Scanning
-- Run `baseline scan` to analyze your project files (JS, TS, CSS, HTML)
-- Detects usage of modern web APIs, CSS features, and JavaScript syntax
+### 🔍 Advanced AST-Based Detection
+- **Powered by AST parsing** using Babel, PostCSS, and htmlparser2 for maximum accuracy
+- Analyzes your project files (JS, TS, CSS, HTML) at the syntax tree level
+- Detects 40+ modern web features including:
+  - JavaScript: fetch, Promises, Observers, async/await, ES6+ syntax
+  - CSS: Grid, Flexbox, Container Queries, :has(), modern functions
+  - HTML: dialog, details, lazy loading, modern attributes
+- **No false positives** - distinguishes real API usage from variables/polyfills
 - Outputs results in multiple formats:
   - **Summary**: Human-readable report with color-coded status
   - **JSON**: Machine-readable format for scripts and dashboards
