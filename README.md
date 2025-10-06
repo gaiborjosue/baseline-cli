@@ -37,19 +37,19 @@ A powerful command-line tool that helps developers instantly check if their web 
 ### Global Installation (Recommended)
 
 ```bash
-npm install -g baseline-cli
+npm install -g @edziocodes/baseline-cli
 ```
 
 ### Local Project Installation
 
 ```bash
-npm install --save-dev baseline-cli
+npm install --save-dev @edziocodes/baseline-cli
 ```
 
 ### From Source
 
 ```bash
-git clone https://github.com/your-username/baseline-cli.git
+git clone https://github.com/gaiborjosue/baseline-cli.git
 cd baseline-cli
 npm install
 npm run build
@@ -280,7 +280,7 @@ Add Baseline checks to your pipeline:
 
 ```yaml
 - name: Install Baseline CLI
-  run: npm install -g baseline-cli
+  run: npm install -g @edziocodes/baseline-cli
 
 - name: Run Baseline scan
   run: baseline scan --format junit
