@@ -2,6 +2,8 @@
 
 [![Baseline Compliant](https://img.shields.io/badge/Baseline-Compliant-brightgreen)](https://web.dev/baseline/)
 
+<img width="1584" height="396" alt="Green and White LinkedIn Header" src="https://github.com/user-attachments/assets/5919aa32-a429-4429-8c19-904caa6dd591" />
+
 A powerful command-line tool that helps developers instantly check if their web projects are compliant with the latest Baseline web features standard. Stop jumping between MDN, caniuse.com, and blog posts—just run a single command to scan your codebase and find out whether your use of modern web APIs, CSS selectors, or JavaScript features is safe to use in production.
 
 ## 🌟 Features
