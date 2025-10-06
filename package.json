@@ -1,0 +1,58 @@
+{
+  "name": "@edziocodes/baseline-cli",
+  "version": "1.0.1",
+  "description": "CLI tool to check Baseline web features compliance in your projects",
+  "main": "dist/index.js",
+  "bin": {
+    "baseline": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "baseline",
+    "web-features",
+    "cli",
+    "compatibility",
+    "web-standards",
+    "browser-support",
+    "feature-detection",
+    "ci-cd",
+    "github-actions",
+    "developer-tools"
+  ],
+  "author": "Edward Gaibor <edward@edwardgaibor.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaiborjosue/baseline-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gaiborjosue/baseline-cli/issues"
+  },
+  "homepage": "https://github.com/gaiborjosue/baseline-cli#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "commonjs",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.1",
+    "fast-glob": "^3.3.3",
+    "glob": "^11.0.3",
+    "web-features": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "typescript": "^5.9.3"
+  }
+}

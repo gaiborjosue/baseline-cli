@@ -1,0 +1,117 @@
+{
+  "totalFiles": 2,
+  "totalFeatures": 14,
+  "baselineCompliant": 12,
+  "limitedSupport": 2,
+  "experimental": 0,
+  "results": [
+    {
+      "file": "src/example.js",
+      "features": [
+        {
+          "featureId": "fetch",
+          "featureName": "Fetch",
+          "status": "baseline",
+          "baselineDate": "2019-09-27",
+          "matchedPattern": "fetch("
+        },
+        {
+          "featureId": "promise",
+          "featureName": "Promise (initial support)",
+          "status": "baseline",
+          "baselineDate": "2018-01-29",
+          "matchedPattern": "Promise"
+        },
+        {
+          "featureId": "intersection-observer",
+          "featureName": "Intersection observer",
+          "status": "baseline",
+          "baselineDate": "2021-09-25",
+          "matchedPattern": "IntersectionObserver"
+        },
+        {
+          "featureId": "localstorage",
+          "featureName": "localStorage and sessionStorage",
+          "status": "baseline",
+          "baselineDate": "2018-01-29",
+          "matchedPattern": "localStorage"
+        },
+        {
+          "featureId": "map",
+          "featureName": "Map (initial support)",
+          "status": "baseline",
+          "baselineDate": "2018-01-29",
+          "matchedPattern": "new Map"
+        },
+        {
+          "featureId": "spread",
+          "featureName": "Spread syntax",
+          "status": "baseline",
+          "baselineDate": "2022-07-15",
+          "matchedPattern": "..."
+        },
+        {
+          "featureId": "template-literals",
+          "featureName": "Template literals",
+          "status": "baseline",
+          "baselineDate": "2022-07-15",
+          "matchedPattern": "`Hello, ${"
+        }
+      ]
+    },
+    {
+      "file": "src/styles.css",
+      "features": [
+        {
+          "featureId": "grid",
+          "featureName": "Grid",
+          "status": "baseline",
+          "baselineDate": "2020-04-17",
+          "matchedPattern": "display: grid"
+        },
+        {
+          "featureId": "flexbox",
+          "featureName": "Flexbox",
+          "status": "baseline",
+          "baselineDate": "2018-03-30",
+          "matchedPattern": "display: flex"
+        },
+        {
+          "featureId": "container-queries",
+          "featureName": "Container queries",
+          "status": "baseline",
+          "baselineDate": "2025-08-14",
+          "matchedPattern": "@container"
+        },
+        {
+          "featureId": "has",
+          "featureName": ":has()",
+          "status": "limited",
+          "baselineDate": "2023-12-19",
+          "matchedPattern": ":has("
+        },
+        {
+          "featureId": "aspect-ratio",
+          "featureName": "aspect-ratio",
+          "status": "baseline",
+          "baselineDate": "2024-03-20",
+          "matchedPattern": "aspect-ratio:"
+        },
+        {
+          "featureId": "flexbox-gap",
+          "featureName": "Flexbox gap",
+          "status": "baseline",
+          "baselineDate": "2023-10-26",
+          "matchedPattern": "gap:"
+        },
+        {
+          "featureId": "backdrop-filter",
+          "featureName": "backdrop-filter",
+          "status": "limited",
+          "baselineDate": "2024-09-16",
+          "matchedPattern": "backdrop-filter:"
+        }
+      ]
+    }
+  ]
+}

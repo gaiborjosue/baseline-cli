@@ -1,0 +1,32 @@
+# Source files (we only publish dist/)
+src/
+tsconfig.json
+
+# Test files
+test-project/
+*.test.ts
+*.spec.ts
+
+# Development files
+.claude/
+.vscode/
+.idea/
+
+# Documentation (except README and LICENSE)
+HACKATHON.md
+GETTING_STARTED.md
+PROJECT_SUMMARY.md
+
+# Config files
+.baselinerc.json
+.gitignore
+.eslintrc*
+.prettierrc*
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
