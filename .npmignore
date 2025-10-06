@@ -11,6 +11,7 @@ test-project/
 .claude/
 .vscode/
 .idea/
+.github/
 
 # Documentation (except README and LICENSE)
 HACKATHON.md
